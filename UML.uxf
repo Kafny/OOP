@@ -1,26 +1,25 @@
-<diagram program="umletino" version="15.0.0"><zoom_level>10</zoom_level><help_text>Space for diagram notes</help_text><element><id>UMLClass</id><coordinates><x>576</x><y>660</y><w>210</w><h>70</h></coordinates><panel_attributes>Maxi
+<diagram program="umletino" version="15.0.0"><zoom_level>10</zoom_level><help_text>Space for diagram notes</help_text><element><id>UMLClass</id><coordinates><x>600</x><y>660</y><w>210</w><h>70</h></coordinates><panel_attributes>Maxi
 --
 - minPlayer = 3
 - maxPlayer = 5
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>836</x><y>660</y><w>210</w><h>130</h></coordinates><panel_attributes>OddOrEven
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>860</x><y>660</y><w>360</w><h>130</h></coordinates><panel_attributes>OddOrEven
 --
 - guess: bit
 --
 + getGuess: bit
 --
 Responsibilites 
-- guesses if the die will turn up with an odd or even number</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>326</x><y>650</y><w>210</w><h>90</h></coordinates><panel_attributes>Bunco
+- guesses if the die will turn up with an odd or even number</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>350</x><y>650</y><w>210</w><h>90</h></coordinates><panel_attributes>Bunco
 --
 - minPlayer = 2
 - maxPlayer = 4
---
-- play</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>616</x><y>910</y><w>250</w><h>100</h></coordinates><panel_attributes>Die
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>640</x><y>910</y><w>250</w><h>100</h></coordinates><panel_attributes>Die
 -
 - diceStrength(): int
 --
 - rollDice() : int
 - setDiceStrength: int
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>516</x><y>350</y><w>230</w><h>190</h></coordinates><panel_attributes>/DiceGame/
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>540</x><y>350</y><w>230</w><h>190</h></coordinates><panel_attributes>/DiceGame/
 --
 -  players: list/
 -minPlayers: int/
@@ -34,7 +33,7 @@ Responsibilites
 
 
 
- </panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>636</x><y>530</y><w>30</w><h>150</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;10;130</additional_attributes></element><element><id>UMLClass</id><coordinates><x>66</x><y>360</y><w>210</w><h>200</h></coordinates><panel_attributes>Leaderboard 
+ </panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>660</x><y>530</y><w>30</w><h>150</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;10;130</additional_attributes></element><element><id>UMLClass</id><coordinates><x>90</x><y>360</y><w>210</w><h>200</h></coordinates><panel_attributes>Leaderboard 
 --
 - name(): str
 - gamePlayed: int
@@ -47,7 +46,7 @@ Responsibilites
 - showPlayerScore(): int
 - showGameWon(): int
 - showChipsRemaining(): int
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>46</x><y>0</y><w>210</w><h>140</h></coordinates><panel_attributes>AllThatDice
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>70</x><y>0</y><w>210</w><h>160</h></coordinates><panel_attributes>AllThatDice
 --
 - register() : str
 -  showLeaderboard(): str
@@ -59,27 +58,27 @@ Responsibilites
 + menu()
 + gameOption()
 
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>526</x><y>0</y><w>210</w><h>180</h></coordinates><panel_attributes>Player
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>550</x><y>0</y><w>210</w><h>180</h></coordinates><panel_attributes>Player
 --
 - playerName: str
 -
 --
 - getPlayerName: str
 - validatePlayerName()
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>386</x><y>570</y><w>580</w><h>110</h></coordinates><panel_attributes>lt=-
-</panel_attributes><additional_attributes>10;80;10;20;560;20;560;90</additional_attributes></element><element><id>Relation</id><coordinates><x>246</x><y>10</y><w>300</w><h>50</h></coordinates><panel_attributes>lt=&lt;-
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>410</x><y>570</y><w>580</w><h>110</h></coordinates><panel_attributes>lt=-
+</panel_attributes><additional_attributes>10;80;10;20;560;20;560;90</additional_attributes></element><element><id>Relation</id><coordinates><x>270</x><y>10</y><w>300</w><h>50</h></coordinates><panel_attributes>lt=&lt;-
 m1=0..*
 m2=1
-contains</panel_attributes><additional_attributes>280;20;10;20</additional_attributes></element><element><id>Relation</id><coordinates><x>266</x><y>430</y><w>270</w><h>50</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
+contains</panel_attributes><additional_attributes>280;20;10;20</additional_attributes></element><element><id>Relation</id><coordinates><x>290</x><y>430</y><w>270</w><h>50</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
 m1=1
 m2=1
-contains</panel_attributes><additional_attributes>10;20;250;20</additional_attributes></element><element><id>Relation</id><coordinates><x>626</x><y>170</y><w>70</w><h>200</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
+contains</panel_attributes><additional_attributes>10;20;250;20</additional_attributes></element><element><id>Relation</id><coordinates><x>650</x><y>170</y><w>70</w><h>200</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
 m1=0..*
 m2= 0..*
-can play</panel_attributes><additional_attributes>10;180;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>166</x><y>140</y><w>380</w><h>240</h></coordinates><panel_attributes>lt=&lt;-
+can play</panel_attributes><additional_attributes>10;180;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>190</x><y>140</y><w>380</w><h>240</h></coordinates><panel_attributes>lt=&lt;-
 m1=1
 m2=1
-can view</panel_attributes><additional_attributes>10;220;10;20;360;20</additional_attributes></element><element><id>UMLClass</id><coordinates><x>326</x><y>860</y><w>210</w><h>110</h></coordinates><panel_attributes>Rounds
+can view</panel_attributes><additional_attributes>10;220;10;20;360;20</additional_attributes></element><element><id>UMLClass</id><coordinates><x>350</x><y>860</y><w>210</w><h>110</h></coordinates><panel_attributes>Rounds
 --
 - roundNum: int
 - score: int
@@ -87,26 +86,26 @@ can view</panel_attributes><additional_attributes>10;220;10;20;360;20</additiona
 - getRoundNum(): int
 - getScore(): int
 
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>426</x><y>730</y><w>40</w><h>150</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>450</x><y>730</y><w>40</w><h>150</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
 m1=1
 m2=6
-in </panel_attributes><additional_attributes>10;10;10;130</additional_attributes></element><element><id>Relation</id><coordinates><x>476</x><y>730</y><w>190</w><h>200</h></coordinates><panel_attributes>lt=-
+in </panel_attributes><additional_attributes>10;10;10;130</additional_attributes></element><element><id>Relation</id><coordinates><x>500</x><y>730</y><w>190</w><h>200</h></coordinates><panel_attributes>lt=-
 m1=1
 m2=3
-has </panel_attributes><additional_attributes>10;10;170;180</additional_attributes></element><element><id>Relation</id><coordinates><x>696</x><y>720</y><w>60</w><h>210</h></coordinates><panel_attributes>lt=-
+has </panel_attributes><additional_attributes>10;10;170;180</additional_attributes></element><element><id>Relation</id><coordinates><x>720</x><y>720</y><w>60</w><h>210</h></coordinates><panel_attributes>lt=-
 m1=1
 m2= 2
-has </panel_attributes><additional_attributes>10;10;20;190</additional_attributes></element><element><id>Relation</id><coordinates><x>766</x><y>780</y><w>160</w><h>150</h></coordinates><panel_attributes>lt=-
+has </panel_attributes><additional_attributes>10;10;20;190</additional_attributes></element><element><id>Relation</id><coordinates><x>790</x><y>780</y><w>160</w><h>150</h></coordinates><panel_attributes>lt=-
 m1=1
 m2=1
-has </panel_attributes><additional_attributes>140;10;10;130</additional_attributes></element><element><id>UMLClass</id><coordinates><x>1206</x><y>10</y><w>310</w><h>70</h></coordinates><panel_attributes>
+has </panel_attributes><additional_attributes>140;10;10;130</additional_attributes></element><element><id>UMLClass</id><coordinates><x>1230</x><y>10</y><w>310</w><h>70</h></coordinates><panel_attributes>
 Name: Nisha Kafley
 Email: Kafny002@mymail.unisa.edu.au
 StudentID: 110373752
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>726</x><y>100</y><w>690</w><h>890</h></coordinates><panel_attributes>lt=-
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>750</x><y>100</y><w>690</w><h>890</h></coordinates><panel_attributes>lt=-
 m1=1..*
 m2=1..*
-has</panel_attributes><additional_attributes>10;10;650;20;660;870;140;860</additional_attributes></element><element><id>UMLClass</id><coordinates><x>896</x><y>290</y><w>310</w><h>70</h></coordinates><panel_attributes>
+has</panel_attributes><additional_attributes>10;10;650;20;660;870;140;860</additional_attributes></element><element><id>UMLClass</id><coordinates><x>920</x><y>290</y><w>310</w><h>70</h></coordinates><panel_attributes>
 Name: Nisha Kafley
 Email: Kafny002@mymail.unisa.edu.au
 StudentID: 110373752
