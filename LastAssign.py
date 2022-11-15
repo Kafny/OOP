@@ -33,27 +33,47 @@ class all_That_Dice:
         if userChoice == "q":
             print("Thank you for playing All-That-Dice!")
 
-        return userChoice
-            
+        while (userChoice != 'q'):
+            if (userChoice == 'r'):
+                print("Registering a new user")
+            elif (userChoice == 's'):
+                print("Showing the leader board")
+            elif (userChoice == 'p'):
+                print("Playing a game")
+                
+            return userChoice
+
 # This player class will register all the new players 
-# playerList[] will add all the names of the players into a list 
-# If the new player name is already registered, it will display a message and the player will be asked to re-enter the name
+# playerList[] will add all the names of the new players into a list 
 
 class players:
-    playerList = []
-    def __init__(self, playerName):
-        self.__playerName = playerName
-        
+    def __init__(self):
+        self.playerList = []   
+
     def getPlayerName(self):
-        input("What is the name of the new player? ")
+        newPlayer = input("\nWhat is the name of the new player? ")
+        # validates if the new player name exists in playerList
+        # if the playerName exists, then the player is asked to re-enter their name
+
         
-        self.__playerName.append[]
+        while newPlayer not in self.playerList:
+            self.playerList.append(newPlayer)
+            print("Welcome", newPlayer)
+        newPlayer = input("\nWhat is the name of the new player? ")
 
+        for newPlayer in self.playerList:
+            print("Welcome", newPlayer)
+        
 
+        if newPlayer in self.playerList:
+            print("\nSorry, the name is already taken")
+            
 
-
-
-
+            
 atd = all_That_Dice
 atd.run()
+
+p = players()
+p.getPlayerName()
+
 
