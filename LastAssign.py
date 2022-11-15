@@ -20,6 +20,7 @@ class all_That_Dice:
         print("(s) show the leader board")
         print("(p) play a game")
         print("(q) quit")
+        #made changes
 
         # prompts the player to choose an option
         userChoice = input("\nWhat would you like to do?")
@@ -69,7 +70,7 @@ class players:
             print("\nSorry, the name is already taken")
             
 
-            
+
 atd = all_That_Dice
 atd.run()
 
