@@ -149,7 +149,8 @@ class maxi():
 The player has to guess if the die will be odd or even.
 If the player's guess corrosponds with the die, then the player wins'''
 
-class oddOrEven():
+#r
+# class oddOrEven():
 
     
     #def __init__(self, guess):
@@ -181,13 +182,12 @@ class oddOrEven():
 atd = allThatDice
 atd.run()
 
-m = allThatDice
-m.menu()
+atd.menu()
 
 p = players()
 p.getPlayerName()
 
-g = allThatDice()
-g.gameOption()
+
+atd.gameOption()
 
 
