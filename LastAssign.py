@@ -47,7 +47,7 @@ class players:
     def getPlayerName(self):
         input("What is the name of the new player? ")
         
-        #self.__playerName.append[]
+        self.__playerName.append[]
 
 
 
