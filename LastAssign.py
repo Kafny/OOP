@@ -62,7 +62,7 @@ class allThatDice:
         choice = input("\nWhat would you like to do?")
 
         if choice == "o":
-           pass
+            pass
 
         elif choice == "m":
             pass
@@ -79,7 +79,7 @@ class players:
     def __init__(self):
         self.playerList = []   
 
-        
+
     '''This method prompts the player to enter the name
     It also validates if the new player name exists in playerList
     If the playerName exists, then the player is asked to re-enter'''
@@ -98,45 +98,46 @@ class players:
 
         if newPlayer in self.playerList:
             print("\nSorry, the name is already taken")
-            
-
-
-# Leaderboard class will show the results which inclues the namee, games played, won, and chips. 
-'''class leaderboard:
-    def __init__(self, Playername, gamePlayed, gameWon, chips):
-        self.playerName = Playername 
-        self.gamePlayed = gamePlayed
-        self.gameWon = gameWon
-        self.chips = chips'''
     
-    
-    
-
-'''class diceGame:
+'''Dice class is the parent class as all the other 3 games will inherit its attributes
+'''
+class diceGame:
     def __init__(self, players, minPlayers, maxPlayers, chipsToBid):
         self.players = players 
         self.minPlayers = minPlayers
         self.minPlayers = maxPlayers
         self.chipsToBid = chipsToBid
     
-    def playerGame(self):'''
+    '''This method will run the game'''
+    def playGame(self):
+        pass
+
+    '''This method will prompt the player to place a bid'''
+    def askToBid(self):
+        pass
+
+    '''This method will set the chips'''
+
+    def setChips(self):
+        pass 
 
 
 
 
-#played by 2-4 playees 
-# If the registered players are not enough, then an error message will display and players will be redirected to main menu
-# players name must match the registered name, if not error message will display and players are asked to re-enter thier name
-# Players will bid the chips
+
+'''played by 2-4 playees 
+If the registered players are not enough, then an error message will display and players will be redirected to main menu
+players name must match the registered name, if not error message will display and players are asked to re-enter thier name
+Players will bid the chips'''
 
 class bunco():
     pass 
 
 
-# played by 3-5 players 
-# Each player will roll a pair of dice
-# The player with the higest number of face up values of the dice will win the game 
-# If both players have the same higest die value, then they will play the game again 
+'''played by 3-5 players 
+Each player will roll a pair of dice
+The player with the higest number of face up values of the dice will win the game 
+If both players have the same higest die value, then they will play the game again'''
 
 class maxi():
     pass
@@ -144,9 +145,9 @@ class maxi():
 
 
 
-# Odd or Even only has 1 player
-# The player has to guess if the die will be odd or even.
-# If the player's guess corrosponds with the die, then the player wins
+'''Odd or Even only has 1 player
+The player has to guess if the die will be odd or even.
+If the player's guess corrosponds with the die, then the player wins'''
 
 class oddOrEven():
 
@@ -158,7 +159,18 @@ class oddOrEven():
         
         
 
+            
 
+
+# Leaderboard class will show the results which inclues the namee, games played, won, and chips. 
+# class leaderboard:
+    #def __init__(self, Playername, gamePlayed, gameWon, chips):
+        #self.playerName = Playername 
+        #self.gamePlayed = gamePlayed
+        #self.gameWon = gameWon
+        #self.chips = chips
+    
+    
 
 
 #class Die:

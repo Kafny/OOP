@@ -1,0 +1,29 @@
+[33mcommit 171cd1e101d95721c6e7863a19defa3a3a4330f6[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: Nisha Kafley <Kafny002@mymail.unisa.edu.au>
+Date:   Tue Nov 15 20:24:50 2022 +1030
+
+    All the classes are created and for now I just passed the values. I also added comment and docstring for all the classes and methods.
+
+[33mcommit d923ea119c084b5ffc412c276a5c906db364b962[m
+Author: Nisha Kafley <Kafny002@mymail.unisa.edu.au>
+Date:   Tue Nov 15 19:24:44 2022 +1030
+
+    created player class
+
+[33mcommit f3108d6001cfce4b118d92a102e86f904491bed2[m
+Author: Nisha Kafley <Kafny002@mymail.unisa.edu.au>
+Date:   Tue Nov 15 19:17:48 2022 +1030
+
+    made the all that dice class and also made the run method
+
+[33mcommit 9a949c96a4cb5bc0fa2779ca7dcdcdc521f06c40[m
+Author: Nisha Kafley <Kafny002@mymail.unisa.edu.au>
+Date:   Tue Nov 15 13:51:49 2022 +1030
+
+    Added all the classes
+
+[33mcommit 287611c199c911e3abf50e57e228a5543637e3a3[m
+Author: Nisha Kafley <Kafny002@mymail.unisa.edu.au>
+Date:   Tue Nov 15 13:47:43 2022 +1030
+
+    Created all the classes LastAssign.py
